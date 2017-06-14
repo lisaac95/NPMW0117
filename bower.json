@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-final-pwpc",
+  "description": "Servidor express para el control de inventario",
+  "main": "server.js",
+  "authors": [
+    "@Cuachi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Server",
+    "Express",
+    "Storage"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

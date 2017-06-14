@@ -1,0 +1,8 @@
+<%- include partials/header -%>
+<body>
+    First test
+    <% if (isAuthenticated){ %>
+    <%= user[0].admin %>
+    <%}%>
+</body>
+<%- include partials/footer -%>

@@ -1,0 +1,35 @@
+{
+  "name": "proyecto-final-pwpc",
+  "version": "1.0.0",
+  "description": "Servidor express para el control de inventario",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "Server",
+    "Express",
+    "Storage"
+  ],
+  "author": "@Cuachi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bower": "^1.8.0",
+    "cookie-session": "^2.0.0-beta.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "mime": "^1.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
