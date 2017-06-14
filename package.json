@@ -4,7 +4,8 @@
   "description": "Servidor express para el control de inventario",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "postinstall": "bower install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +17,7 @@
     "Express",
     "Storage"
   ],
-  "author": "@Cuachi",
+  "author": "@LaGorda",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
